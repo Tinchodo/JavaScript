@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    color: #fff;
+}
+
+p {
+    margin-bottom: 1.6em;
+}
+
+h1{
+    font-size: 2rem;
+    line-height: 1.3em;
+}
+
+.container {
+    width: 85%;
+    max-width: 850px;
+    margin: auto; 
+}
+
+.body {
+background-image: url(./assets/fotoFondo.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+background-position: left;
+background-color: rgb(60, 60, 60);
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.3);
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    padding: 2rem 0;
+}
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+    .navigation ul li {
+    display: inline-block;
+    }
+
+        .navigation ul li a {
+         display: block;
+         padding: 0.5rem 1rem;
+         transition: all 0.4s linear;
+         border-radius: 5px;
+        }
+
+            .navigation ul li a:hover {
+                    background-color: #4a4a4a;
+            }
+
+.logo {
+    letter-spacing: 15px;
+    font-size: 1.4rem;
+}
+
+.footer {
+    background: #918f8f;
+    padding: 4rem 0;
+    text-align: center;
+    color: black;
+    margin-top: 6rem;
+}
+
+.main {
+    padding-top: 12rem;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+    .img {
+        cursor: pointer;
+    }
+
+    .check {
+        display: none;
+    }
+
+.header {
+    background-color: rgb(59, 59, 59);
+}
+
+
+    .navigation {
+        width: 100%;
+        margin-top: 1rem;
+        padding: 0.5rem 1rem;
+        }
+
+        .navigation ul {
+            display: none;
+        }
+
+        .navigation ul.show {
+            display: block;
+            text-align: center;
+        }
+
+        .navigation ul li {
+            display: block;
+        }
+    
+            .navigation ul li a {
+             display: block;
+             padding: 0.5rem 0;
+             transition: all 0.4s linear;
+             border-radius: 5px;
+             border-bottom: 1px solid #fff;
+            }
+    
+                .navigation ul li a:hover {
+                        background-color: #4a4a4a;
+                }
+
+}
