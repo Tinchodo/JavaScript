@@ -91,6 +91,22 @@ background-color: rgb(60, 60, 60);
     padding-top: 12rem;
 }
 
+.bienvenidos {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5em;
+    font-size: 15vh;
+    color: #000000;
+}
+
+.containerTexto {
+    margin: auto;
+    margin-top: 35em;
+    width: 85%;
+    max-width: 850px;
+
+}
+
 
 @media only screen and (max-width: 767px) {
 
